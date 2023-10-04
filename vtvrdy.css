@@ -1,0 +1,239 @@
+body::after {
+
+    background: url(materijali/pozadina.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    content: "";
+    opacity: 50%;
+    z-index: -2;   
+}
+body 
+{
+    background-color: #ffff; 
+    font-family: "Cambria";
+    margin: 0;
+    padding: 0;
+    width: auto;
+}
+
+header
+{   
+    padding: 5px;
+    height: 60px;
+    margin: 0px; 
+    background-color: #46b2cc ; 
+    font-weight: bold;
+    color: #1e3567;
+    width: 100%;
+    opacity: 90%;
+}
+
+footer
+{
+    left:0px ;
+    bottom:0px ; 
+    width: 100%; 
+    opacity: 70%;
+    background-color: #46b2cc; 
+    color: #ffff;
+    text-align: center; 
+    position: static;
+}
+
+ul 
+{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #46b2cc;
+}
+  
+li 
+{
+    float: left;
+}
+  
+li a 
+{
+    display: block;
+    color: white;
+    text-align: center; 
+    text-decoration: none;
+}
+
+#odabir_stranice
+{
+    padding: 14px 16px;
+    
+}
+  
+li a:hover:not(.active) 
+{
+    color: black; 
+}
+  
+.active 
+{
+    background-color: #1e3567;
+}
+
+#slika_loga{
+    height: 45px; 
+    margin: 0;
+    padding: 0;
+}
+
+#oAutoru
+ {
+    display:flex;
+    justify-content: space-around;
+    margin: 5px;
+    padding: 10px;
+    width: auto;
+}
+
+.okvirClanka 
+{
+    background-color: #46b2cc; 
+    color: black; 
+    padding: 10px;
+    margin: 10px;  
+    opacity: 95%;  
+    width: 70%;
+    font-size: large;
+    text-align: center;
+    row-gap: 8px;
+    border: solid dotted #46b2cc 5px;
+    border-radius: 15px;
+}
+
+#oMeni {
+    text-align: justify;
+}
+
+#sredina
+{
+   margin-top: 10px; 
+}
+            
+.registracija-prijava
+{
+    background-color: #46b2cc; 
+    border: 2px solid #1e3567;
+    color: black; 
+    padding: 30px;
+    margin: 30px;  
+    opacity: 95%;  
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: large;
+    text-align: center;
+    row-gap: 8px;
+    border-radius: 15px;
+}
+
+.legenda
+{
+    font-family: "Courier New"; 
+    font-weight: bold; 
+    font-size: 18px; 
+    background-color: #46b2cc; 
+    border: 2px solid #1e3567;
+    color: whitesmoke;
+    text-align: left;
+}
+.gumb{
+    background-color:whitesmoke; 
+    color: black;
+    font-weight:bold; 
+    
+    margin-top: 20px;
+    height: 30px;
+    width: 150px;
+    padding: 0 6px 0 6px;
+    font-weight: 500;
+    border-radius: 15px;
+}
+.gumb:hover
+{
+    font-weight:bold; 
+}
+
+#zaboravljenaLozinka{
+    color: whitesmoke;
+    font-size: 15px;
+}
+
+.dokumentacija-fieldset
+{
+    background-color: #46b2cc; 
+    border: 2px solid #1e3567;
+    color: black; 
+    padding: 30px;
+    margin: 30px;  
+    opacity: 95%;  
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    row-gap: 8px;
+    border-radius: 15px;
+}
+
+#animacijaOkvir
+{
+    justify-content: center; 
+    display: flex; 
+    height: 450; 
+    margin: 30px; 
+}
+
+#animacijaOkvir figure
+{
+    margin:0; 
+    position: absolute;
+    animation: nestajanje 20s infinite;
+    opacity: 0;
+}
+
+#animacijaOkvir img
+{
+    height:450px; 
+    width: 800px;
+}
+
+@keyframes nestajanje
+{
+    25%{
+        opacity: 1;
+    }
+    40% {
+        opacity: 0;
+    }
+}
+
+#animacijaOkvir figure:nth-child(1) {animation-delay: 0s;}
+#animacijaOkvir figure:nth-child(2){animation-delay: 5s;}
+#animacijaOkvir figure:nth-child(3){animation-delay: 10s;}
+#animacijaOkvir figure:nth-child(4){animation-delay: 15s;}
+
+#animacije-fieldset{
+    background-color: #46b2cc; 
+    border: 2px solid #1e3567;
+    padding: 30px; 
+    opacity: 95%;  
+    height: 480px; 
+    width: 830px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: large;
+    text-align: center;
+    border-radius: 15px;
+}
