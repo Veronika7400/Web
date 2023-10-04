@@ -1,2 +1,2 @@
 # Web
-Sustav služi upravljanje utrkama trčanja i praćenja svojih rezultata
+Sustav služi za upravljanje utrkama trčanja i praćenja svojih rezultata
